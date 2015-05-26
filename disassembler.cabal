@@ -1,15 +1,21 @@
 name:            disassembler
-version:         0.2.0.0
+version:         0.2.0.1
 license:         BSD3
 license-file:    LICENSE
 category:        Development, Disassembler
 author:          Martin Grabmueller <martin@grabmueller.de>, Dirk Kleeblatt <klee@cs.tu-berlin.de>
 maintainer:      Martin Grabmueller <martin@grabmueller.de>
+homepage:        https://github.com/mgrabmueller/disassembler
+bug-reports:     https://github.com/mgrabmueller/disassembler/issues
 stability:       experimental
 synopsis:        Disassembler for X86 & AMD64 machine code
 description:     Disassembler for X86 & AMD64 machine code
 cabal-version:   >= 1.2
 build-type:      Simple
+
+source-repository head
+  type:     git
+  location: https://github.com/mgrabmueller/disassembler
 
 library
   build-depends:
